@@ -1,0 +1,35 @@
+.counter-container {
+  width: 88px;
+  height: 28px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.minus-button {
+  display: inline-block;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.quantity {
+  display: inline-block;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.plus-button {
+  display: inline-block;
+  width: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.line {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  line-height: 28px;
+  background: rgba(210, 210, 210, 0.48);
+  border: none;
+}

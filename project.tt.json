@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "mars-mp-components",
+  "description": "mars小程序项目所用公共组件库",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

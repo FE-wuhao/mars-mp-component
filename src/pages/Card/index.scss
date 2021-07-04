@@ -1,0 +1,57 @@
+.container {
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 12px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px 15px 0 15px;
+  color: #333;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header-left-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+.header-left-value {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-right-icon {
+  margin-left: 6px;
+}
+.header-right-value {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+.icon-right-arrow {
+  width: 6px;
+  height: 10px;
+}
+.body {
+  padding: 6px 15px 20px 15px;
+}
+
+.full-width {
+  padding-right: 0;
+  padding-left: 0;
+}

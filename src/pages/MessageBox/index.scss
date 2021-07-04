@@ -1,0 +1,21 @@
+.message-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 5px;
+}
+.message-box-container-sharp-corner {
+  width: 15px;
+  height: 5px;
+  margin-left: 50px;
+}
+.message-box-body {
+  padding: 10px 15px;
+  color: #333;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  background: #f9f9f9;
+  border-radius: 8px;
+}

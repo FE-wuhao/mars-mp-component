@@ -1,0 +1,27 @@
+.container {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  user-select: none;
+}
+.children {
+  display: inline-block;
+}
+
+.badge {
+  min-width: 16px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  line-height: 16px;
+  text-align: center;
+  background: #fb5459;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transform: translate(-12px, -4px);
+}
+.font {
+  transform: scale(0.833333);
+}

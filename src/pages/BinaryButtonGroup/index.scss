@@ -1,0 +1,60 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  background: rgba(51, 51, 51, 1);
+  border-radius: 20px;
+  user-select: none;
+}
+.button-active {
+  flex: 0 0 auto;
+  height: 32px;
+  margin: 0 4px;
+  line-height: 32px;
+  background: #fff;
+  border-radius: 16px;
+  color: black;
+}
+
+.button-inactive {
+  flex: 0 0 auto;
+  height: 20px;
+  margin: 0 4px;
+  color: white;
+  line-height: 20px;
+}
+
+.font {
+  margin: 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+
+.left-button {
+  margin-right: 0;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+  }
+}
+.right-button {
+  position: relative;
+  margin-left: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+  }
+}
