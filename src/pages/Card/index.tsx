@@ -2,13 +2,13 @@
  * @Author: 吴灏
  * @Date: 2021-05-21 13:48:31
  * @LastEditors: 吴灏
- * @LastEditTime: 2021-06-02 10:21:39
+ * @LastEditTime: 2021-07-04 23:31:49
  * @Description: file content
  */
 import React from 'react'
 import { Image, View } from '@tarojs/components'
 import ClassNames from 'classnames'
-import RightArrow from '../../fonts/cart/rightArrow.png'
+import RightArrow from '@/assets/rightArrow.svg'
 
 import styles from './index.scss'
 
