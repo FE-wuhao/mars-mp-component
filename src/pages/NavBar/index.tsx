@@ -1,15 +1,15 @@
 /*
  * @Author: 吴灏
  * @Date: 2021-05-31 11:18:27
- * @LastEditors: wangrt
- * @LastEditTime: 2021-07-03 17:28:22
+ * @LastEditors: 吴灏
+ * @LastEditTime: 2021-07-05 22:45:29
  * @Description: file content
  */
 import { View, Image } from '@tarojs/components'
 import React, { useMemo } from 'react'
 import Taro from '@tarojs/taro'
 
-import LeftArrow from '@/fonts/cart/leftArrow.svg'
+import LeftArrow from '@/assets/leftArrow.svg'
 import styles from './index.scss'
 
 export interface INavBarProps {
@@ -77,7 +77,7 @@ const NavBar: React.FC<INavBarProps> = (props) => {
           className={styles['fake-container']}
           style={{ height: `${navBarHeight + navBarPaddingTop + 18}px` }}
         />
-      ) :null}
+      ) : null}
     </>
   )
 }

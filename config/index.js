@@ -2,7 +2,7 @@
  * @Author: 吴灏
  * @Date: 2021-07-04 21:24:35
  * @LastEditors: 吴灏
- * @LastEditTime: 2021-07-04 22:33:17
+ * @LastEditTime: 2021-07-05 22:25:11
  * @Description: file content
  */
 import { resolve } from 'path'
@@ -31,8 +31,7 @@ const config = {
     '@/components': resolve(__dirname, '..', 'src/components'),
     '@/interfaces': resolve(__dirname, '..', 'src/interfaces'),
     '@/pages': resolve(__dirname, '..', 'src/pages'),
-    '@/fonts': resolve(__dirname, '..', 'src/fonts'),
-    '@/icons': resolve(__dirname, '..', 'src/icons'),
+    '@/assets': resolve(__dirname, '..', 'src/assets'),
   },
   framework: 'react',
   mini: {

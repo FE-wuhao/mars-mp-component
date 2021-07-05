@@ -2,13 +2,13 @@
  * @Author: 吴灏
  * @Date: 2021-07-02 14:55:13
  * @LastEditors: 吴灏
- * @LastEditTime: 2021-07-04 23:35:38
+ * @LastEditTime: 2021-07-05 22:38:51
  * @Description: file content
  */
 import React, { useMemo } from 'react'
 import Taro from '@tarojs/taro'
 import { Image, View } from '@tarojs/components'
-import Close from '@/fonts/cart/close.svg'
+import Close from '@/assets/close.svg'
 
 import styles from './index.scss'
 

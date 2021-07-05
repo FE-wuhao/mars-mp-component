@@ -2,13 +2,13 @@
  * @Author: 吴灏
  * @Date: 2021-04-21 11:07:49
  * @LastEditors: 吴灏
- * @LastEditTime: 2021-07-02 10:30:43
+ * @LastEditTime: 2021-07-05 22:37:55
  * @Description: file content
  */
 import React from 'react'
 import { View, Input, BaseEventOrig, Image } from '@tarojs/components'
 import { InputProps } from '@tarojs/components/types/Input'
-import search from '@/fonts/sort/search.svg'
+import search from '@/assets/search.svg'
 import styles from './index.scss'
 
 export interface ISearchProps {
